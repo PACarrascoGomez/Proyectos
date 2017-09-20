@@ -1,0 +1,407 @@
+
+Lecture du fichier... "reuniones.csp"
+  ... OK
+
+###### Filtering "superficiel" (AC pour les variables entieres) ...
+
+###### Fin filtering du CSP  ######
+
+############  Resolution par Forward-Checking  ############
+
+  - Recherche de toutes les solutions satisfaisantes au moins à 0.090
+  - Ordre d'examen des valeurs numériques : de la plus petite à la plus grande.
+----------------------------------------------------
+
+SOLUTION No 1 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 12 instanciations et 41 tests de contraintes)
+
+SOLUTION No 2 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 16 instanciations et 79 tests de contraintes)
+
+SOLUTION No 3 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 19 instanciations et 119 tests de contraintes)
+
+SOLUTION No 4 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 26 instanciations et 159 tests de contraintes)
+
+SOLUTION No 5 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 28 instanciations et 187 tests de contraintes)
+
+SOLUTION No 6 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 34 instanciations et 241 tests de contraintes)
+
+SOLUTION No 7 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 45 instanciations et 309 tests de contraintes)
+
+SOLUTION No 8 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 49 instanciations et 347 tests de contraintes)
+
+SOLUTION No 9 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 50 instanciations et 371 tests de contraintes)
+
+SOLUTION No 10 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 53 instanciations et 411 tests de contraintes)
+
+SOLUTION No 11 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 60 instanciations et 451 tests de contraintes)
+
+SOLUTION No 12 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 61 instanciations et 475 tests de contraintes)
+
+SOLUTION No 13 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 63 instanciations et 503 tests de contraintes)
+
+SOLUTION No 14 
+   MA = 0   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 69 instanciations et 557 tests de contraintes)
+
+SOLUTION No 15 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 80 instanciations et 610 tests de contraintes)
+
+SOLUTION No 16 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 0   ED = 1   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 95 instanciations et 672 tests de contraintes)
+
+SOLUTION No 17 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 99 instanciations et 710 tests de contraintes)
+
+SOLUTION No 18 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 102 instanciations et 750 tests de contraintes)
+
+SOLUTION No 19 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 109 instanciations et 790 tests de contraintes)
+
+SOLUTION No 20 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 111 instanciations et 818 tests de contraintes)
+
+SOLUTION No 21 
+   MA = 0   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 0   ED = 1   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 117 instanciations et 872 tests de contraintes)
+
+SOLUTION No 22 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 129 instanciations et 925 tests de contraintes)
+
+SOLUTION No 23 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 135 instanciations et 979 tests de contraintes)
+
+SOLUTION No 24 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 137 instanciations et 1007 tests de contraintes)
+
+SOLUTION No 25 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 138 instanciations et 1031 tests de contraintes)
+
+SOLUTION No 26 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 145 instanciations et 1071 tests de contraintes)
+
+SOLUTION No 27 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 148 instanciations et 1111 tests de contraintes)
+
+SOLUTION No 28 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 149 instanciations et 1135 tests de contraintes)
+
+SOLUTION No 29 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 153 instanciations et 1173 tests de contraintes)
+
+SOLUTION No 30 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 164 instanciations et 1241 tests de contraintes)
+
+SOLUTION No 31 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 170 instanciations et 1295 tests de contraintes)
+
+SOLUTION No 32 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 178 instanciations et 1339 tests de contraintes)
+
+SOLUTION No 33 
+   MA = 0   MD = 1   ML = 0   MP = 1   ME = 1   MR = 1   EA = 0   ED = 1   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 184 instanciations et 1393 tests de contraintes)
+
+SOLUTION No 34 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 198 instanciations et 1460 tests de contraintes)
+
+SOLUTION No 35 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 200 instanciations et 1488 tests de contraintes)
+
+SOLUTION No 36 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 201 instanciations et 1512 tests de contraintes)
+
+SOLUTION No 37 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 210 instanciations et 1568 tests de contraintes)
+
+SOLUTION No 38 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 0   ED = 1   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 211 instanciations et 1592 tests de contraintes)
+
+SOLUTION No 39 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 0   ED = 1   EL = 1   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 215 instanciations et 1630 tests de contraintes)
+
+SOLUTION No 40 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 0   ED = 1   EL = 0   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 225 instanciations et 1686 tests de contraintes)
+
+SOLUTION No 41 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 0   ED = 1   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 231 instanciations et 1740 tests de contraintes)
+
+SOLUTION No 42 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 0   ED = 1   EL = 0   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 239 instanciations et 1784 tests de contraintes)
+
+SOLUTION No 43 
+   MA = 0   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 0   ED = 1   EL = 1   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 245 instanciations et 1838 tests de contraintes)
+
+SOLUTION No 44 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 261 instanciations et 1911 tests de contraintes)
+
+SOLUTION No 45 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 267 instanciations et 1965 tests de contraintes)
+
+SOLUTION No 46 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 275 instanciations et 2009 tests de contraintes)
+
+SOLUTION No 47 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 281 instanciations et 2063 tests de contraintes)
+
+SOLUTION No 48 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 292 instanciations et 2131 tests de contraintes)
+
+SOLUTION No 49 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 296 instanciations et 2169 tests de contraintes)
+
+SOLUTION No 50 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 297 instanciations et 2193 tests de contraintes)
+
+SOLUTION No 51 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 300 instanciations et 2233 tests de contraintes)
+
+SOLUTION No 52 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 307 instanciations et 2273 tests de contraintes)
+
+SOLUTION No 53 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 308 instanciations et 2297 tests de contraintes)
+
+SOLUTION No 54 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 310 instanciations et 2325 tests de contraintes)
+
+SOLUTION No 55 
+   MA = 1   MD = 0   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 316 instanciations et 2379 tests de contraintes)
+
+SOLUTION No 56 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 326 instanciations et 2420 tests de contraintes)
+
+SOLUTION No 57 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 332 instanciations et 2474 tests de contraintes)
+
+SOLUTION No 58 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 340 instanciations et 2518 tests de contraintes)
+
+SOLUTION No 59 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 346 instanciations et 2572 tests de contraintes)
+
+SOLUTION No 60 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 357 instanciations et 2640 tests de contraintes)
+
+SOLUTION No 61 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 361 instanciations et 2678 tests de contraintes)
+
+SOLUTION No 62 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 362 instanciations et 2702 tests de contraintes)
+
+SOLUTION No 63 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 365 instanciations et 2742 tests de contraintes)
+
+SOLUTION No 64 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 372 instanciations et 2782 tests de contraintes)
+
+SOLUTION No 65 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 373 instanciations et 2806 tests de contraintes)
+
+SOLUTION No 66 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 375 instanciations et 2834 tests de contraintes)
+
+SOLUTION No 67 
+   MA = 1   MD = 0   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 381 instanciations et 2888 tests de contraintes)
+
+SOLUTION No 68 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 394 instanciations et 2953 tests de contraintes)
+
+SOLUTION No 69 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 400 instanciations et 3007 tests de contraintes)
+
+SOLUTION No 70 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 402 instanciations et 3035 tests de contraintes)
+
+SOLUTION No 71 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 403 instanciations et 3059 tests de contraintes)
+
+SOLUTION No 72 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 410 instanciations et 3099 tests de contraintes)
+
+SOLUTION No 73 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 413 instanciations et 3139 tests de contraintes)
+
+SOLUTION No 74 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 414 instanciations et 3163 tests de contraintes)
+
+SOLUTION No 75 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 0   MR = 1   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 418 instanciations et 3201 tests de contraintes)
+
+SOLUTION No 76 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 429 instanciations et 3269 tests de contraintes)
+
+SOLUTION No 77 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 435 instanciations et 3323 tests de contraintes)
+
+SOLUTION No 78 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 437 instanciations et 3351 tests de contraintes)
+
+SOLUTION No 79 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 444 instanciations et 3391 tests de contraintes)
+
+SOLUTION No 80 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 1   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 447 instanciations et 3431 tests de contraintes)
+
+SOLUTION No 81 
+   MA = 1   MD = 1   ML = 0   MP = 1   ME = 1   MR = 1   EA = 1   ED = 0   EL = 1   EP = 1   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 451 instanciations et 3469 tests de contraintes)
+
+SOLUTION No 82 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 461 instanciations et 3510 tests de contraintes)
+
+SOLUTION No 83 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 467 instanciations et 3564 tests de contraintes)
+
+SOLUTION No 84 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 469 instanciations et 3592 tests de contraintes)
+
+SOLUTION No 85 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 470 instanciations et 3616 tests de contraintes)
+
+SOLUTION No 86 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 477 instanciations et 3656 tests de contraintes)
+
+SOLUTION No 87 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 480 instanciations et 3696 tests de contraintes)
+
+SOLUTION No 88 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 481 instanciations et 3720 tests de contraintes)
+
+SOLUTION No 89 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 0   MR = 1   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 485 instanciations et 3758 tests de contraintes)
+
+SOLUTION No 90 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 496 instanciations et 3826 tests de contraintes)
+
+SOLUTION No 91 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 1  sat = 1.000 .
+  (trouvee apres 502 instanciations et 3880 tests de contraintes)
+
+SOLUTION No 92 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 504 instanciations et 3908 tests de contraintes)
+
+SOLUTION No 93 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 0   EA = 1   ED = 0   EL = 1   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 505 instanciations et 3932 tests de contraintes)
+
+SOLUTION No 94 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 512 instanciations et 3972 tests de contraintes)
+
+SOLUTION No 95 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 0  sat = 1.000 .
+  (trouvee apres 515 instanciations et 4012 tests de contraintes)
+
+SOLUTION No 96 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 0   EP = 0   EE = 1   ER = 1  sat = 1.000 .
+  (trouvee apres 516 instanciations et 4036 tests de contraintes)
+
+SOLUTION No 97 
+   MA = 1   MD = 1   ML = 1   MP = 0   ME = 1   MR = 1   EA = 1   ED = 0   EL = 1   EP = 0   EE = 0   ER = 0  sat = 1.000 .
+  (trouvee apres 520 instanciations et 4074 tests de contraintes)
+
+############   Fin du Forward-Checking ############
+   Nombre de solution(s) trouvee(s) : 97
+   Nb d'instanciations : 522, Nb de tests de contraintes : 4090
+
+durée de la résolution : 0'00''08

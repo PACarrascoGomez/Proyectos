@@ -1,0 +1,8 @@
+---------------------------
+Numero de datos:  1500
+---------------------------
+Diferencia:  1  pixeles, numero de errores:  437 , error obtenido:  29.133300  %
+Diferencia:  2  pixeles, numero de errores:  255 , error obtenido:  17.000000  %
+Diferencia:  3  pixeles, numero de errores:  159 , error obtenido:  10.600000  %
+Diferencia:  4  pixeles, numero de errores:  123 , error obtenido:  8.200000  %
+Diferencia:  5  pixeles, numero de errores:  94 , error obtenido:  6.266600  %

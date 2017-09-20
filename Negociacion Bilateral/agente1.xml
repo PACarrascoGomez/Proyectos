@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<agente>
+	<nombre>Comprador</nombre>
+	<atributos>6</atributos>
+	<oferta>
+		<tipo>1</tipo>
+	</oferta>
+	<futilidad>
+		<tipo>1</tipo>
+	</futilidad>
+	<concesion>
+		<tipo>2</tipo>
+		<parametros>0.4 2 relativo</parametros>
+		<inicial>1</inicial>
+	</concesion>
+	<aceptacion>
+		<tipo>2</tipo>
+		<aceptar>0.3</aceptar>
+	</aceptacion>
+	<tiempo>300</tiempo>
+</agente>

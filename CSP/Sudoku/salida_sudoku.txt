@@ -1,0 +1,24 @@
+
+Lecture du fichier... "sudoku.csp"
+  ... OK
+
+###### Filtering "superficiel" (AC pour les variables entieres) ...
+
+###### Fin filtering du CSP  ######
+
+############  Resolution par Backtrack  ############
+
+  - Recherche de la premiere solution satisfaisante au moins à 0.090
+  - Tri préalable des variables, du plus petit domaine au plus grand.
+  - Ordre d'examen des valeurs numériques : de la plus petite à la plus grande.
+----------------------------------------------------
+
+SOLUTION No 1 
+   Z12 = 6   Z14 = 1   Z16 = 4   Z18 = 5   Z23 = 8   Z24 = 3   Z26 = 5   Z27 = 6   Z31 = 2   Z34 = 6   Z36 = 9   Z39 = 1   Z41 = 8   Z44 = 4   Z45 = 3   Z46 = 7   Z49 = 6   Z53 = 6   Z54 = 8   Z55 = 5   Z56 = 2   Z57 = 3   Z61 = 7   Z64 = 9   Z65 = 6   Z66 = 1   Z69 = 4   Z71 = 5   Z74 = 7   Z76 = 3   Z79 = 2   Z83 = 7   Z84 = 2   Z86 = 6   Z87 = 9   Z91 = 6   Z92 = 4   Z93 = 2   Z94 = 5   Z95 = 9   Z96 = 8   Z97 = 1   Z98 = 7   Z99 = 3   Z59 = 7   Z81 = 3   Z29 = 9   Z63 = 5   Z85 = 4   Z52 = 9   Z25 = 2   Z88 = 8   Z89 = 5   Z13 = 3   Z68 = 2   Z35 = 8   Z11 = 9   Z73 = 9   Z47 = 5   Z75 = 1   Z58 = 1   Z77 = 4   Z62 = 3   Z82 = 1   Z19 = 8   Z48 = 9   Z21 = 1   Z51 = 4   Z67 = 8   Z22 = 7   Z37 = 7   Z38 = 3   Z72 = 8   Z28 = 4   Z17 = 2   Z43 = 1   Z15 = 7   Z32 = 5   Z78 = 6   Z33 = 4   Z42 = 2  sat = 1.000 .
+  (trouvee apres 3561 instanciations et 63915 tests de contraintes)
+
+############   Fin du Backtrack  ############
+   Nombre de solution(s) trouvee(s) : 1
+   Nb d'instanciations : 3561, Nb de tests de contraintes : 63915
+
+durée de la résolution : 0'00''22

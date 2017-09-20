@@ -1,0 +1,130 @@
+##################################################
+# Autor: Pascual Andres Carrasco Gomez
+# Asignatura: TIA
+# Practica: CSP
+# Parte: 3 - REUNIONES
+##################################################
+
+##### LAS REUNIONES
+
+##########################################
+###   Requetes, Parametres et Options  ###
+##########################################
+ 
+\alpha = 0.1; 
+\filtering : f ; 
+\search : 
+ bt, 
+# fc, 
+# rfla, 
+ all_solutions 
+# first_solution
+; 
+#\static_labeling_order: 
+# smallest_domain  
+# greatest_degree 
+# smallest_domain_by_degree 
+; 
+#\dynamic_labeling_order: 
+# smallest_domain  
+# smallest_domain_by_degree 
+; 
+#\value_order:  
+# bottom_first; 
+# top_first; 
+# mid_first; 
+# 
+\verbose :  
+ display_solutions  
+# display_csp 
+# display_filtering 
+# display_search 
+#       display_intervals 
+;
+
+##############################
+###       VARIABLES        ###
+############################## 
+
+\vi :
+MA,MD,ML,MP,ME,MR, # Maridos
+EA,ED,EL,EP,EE,ER  # Esposas
+
+# Dominio (Reunion 0 o 1)
+0..1 ;
+
+##############################
+###      CONTRAINTES       ###
+############################## 
+
+\cc: R1
+	\if		\ci: r1a, MA = EA;
+			\ci: r1b, MD = ED;
+			\ci: r1c, ML = EP;
+	\then	\ci: r1d, ME = ER;
+;
+
+\cc: R2
+	\if		\ci: r2a, MA = EA;
+			\ci: r2b, MP = EP;
+			\ci: r2c, MD = EE;
+	\then	\ci: r2d, MR != EL;
+;
+
+\cc: R3
+	\if		\ci: r3a, ME = MR;
+			\ci: r3b, MR = EE;
+			\ci: r3c, EE = ER;
+			\ci: r3d, MA != ED;
+	\then	\ci: r3e, ML != EP;
+;
+
+\cc: R4
+	\if		\ci: r4a, MA = EA;
+			\ci: r4b, MR = ER;
+			\ci: r4c, MD != EE;
+	\then	\ci: r4d, ML = EP;
+;
+
+\cc: R5
+	\if		\ci: r5a, ML = EL;
+			\ci: r5b, MP = EP;
+			\ci: r5c, ME = ER;
+	\then	\ci: r5d, MA != ED;
+;
+
+\cc: R6
+	\if		\ci: r6a, MD = ME;
+			\ci: r6b, ME = ED;
+			\ci: r6c, ED = EE;
+			\ci: r6d, ML != EP;
+	\then	\ci: r6e, MR = EL;
+;
+
+\cc: R7
+	\if		\ci: r7a, MP = EA;
+	\then	\ci: r7b, MA = EA;
+;
+
+\cc: R8
+	\if		\ci: r7a, EP = EL;
+	\then	\ci: r7b, ML != MP;
+;
+
+\doc: R9
+	\ci: r9a, MA != EA;
+\or
+	\ci: r9b, MD != ED;
+\or
+	\ci: r9c, ML != EL;
+\or
+	\ci: r9d, MP != EP;
+\or
+	\ci: r9e, ME != EE;
+\or
+	\ci: r9f, MR != ER;
+;
+
+\ci: R10a, MA + MD + ML + MP + ME + MR + EA + ED + EL + EP + EE + ER > 4;
+
+\ci: R10b, MA + MD + ML + MP + ME + MR + EA + ED + EL + EP + EE + ER < 9;

@@ -1,0 +1,141 @@
+##################################################
+# Autor: Pascual Andres Carrasco Gomez
+# Asignatura: TIA
+# Practica: CSP
+# Parte: 2 - SUDOKU
+##################################################
+
+##### SUDOKU
+
+##########################################
+###   Requetes, Parametres et Options  ###
+##########################################
+ 
+\alpha = 0.1;
+\filtering : f ;
+\search : 
+# bt, 
+ fc, 
+# rfla,
+#	all_solutions
+#	best_solution
+	first_solutions 1
+;
+\static_labeling_order  :
+	smallest_domain 
+#	greatest_degree
+#	smallest_domain_by_degree
+;
+#\dynamic_labeling_order :
+#	smallest_domain 
+#	smallest_domain_by_degree
+#
+;
+#\value_order:  
+# bottom_first; 
+# top_first; 
+# mid_first; 
+# 
+\verbose : 
+	display_solutions 
+#	display_csp
+#	display_filtering
+#	display_search
+#       display_intervals
+;
+
+##############################
+###       VARIABLES        ###
+############################## 
+
+# Variables
+\vi :
+Z11,Z12,Z13,Z14,Z15,Z16,Z17,Z18,Z19,
+Z21,Z22,Z23,Z24,Z25,Z26,Z27,Z28,Z29,
+Z31,Z32,Z33,Z34,Z35,Z36,Z37,Z38,Z39,
+Z41,Z42,Z43,Z44,Z45,Z46,Z47,Z48,Z49,
+Z51,Z52,Z53,Z54,Z55,Z56,Z57,Z58,Z59,
+Z61,Z62,Z63,Z64,Z65,Z66,Z67,Z68,Z69,
+Z71,Z72,Z73,Z74,Z75,Z76,Z77,Z78,Z79,
+Z81,Z82,Z83,Z84,Z85,Z86,Z87,Z88,Z89,
+Z91,Z92,Z93,Z94,Z95,Z96,Z97,Z98,Z99
+
+# Dominio
+1..9 ;
+
+##############################
+###      CONTRAINTES       ###
+############################## 
+
+# Restricciones unarias (Declaracion de variables iniciales)
+\ci: rv1 , Z12 = 6 ;
+\ci: rv2 , Z14 = 1 ;
+\ci: rv3 , Z16 = 4 ;
+\ci: rv4 , Z18 = 5 ;
+\ci: rv5 , Z23 = 8 ;
+\ci: rv6 , Z24 = 3 ;
+\ci: rv7 , Z26 = 5 ;
+\ci: rv8 , Z27 = 6 ;
+\ci: rv9 , Z31 = 2 ;
+\ci: rv10 , Z39 = 1 ;
+\ci: rv11 , Z41 = 8 ;
+\ci: rv12 , Z44 = 4 ;
+\ci: rv13 , Z46 = 7 ;
+\ci: rv14 , Z49 = 6 ;
+\ci: rv15 , Z53 = 6 ;
+\ci: rv16 , Z57 = 3 ;
+\ci: rv17 , Z61 = 7 ;
+\ci: rv18 , Z64 = 9 ;
+\ci: rv19 , Z66 = 1 ;
+\ci: rv20 , Z69 = 4 ;
+\ci: rv21 , Z71 = 5 ;
+\ci: rv22 , Z79 = 2 ;
+\ci: rv23 , Z83 = 7 ;
+\ci: rv24 , Z84 = 2 ;
+\ci: rv25 , Z86 = 6 ;
+\ci: rv26 , Z87 = 9 ;
+\ci: rv27 , Z92 = 4 ;
+\ci: rv28 , Z94 = 5 ;
+\ci: rv29 , Z96 = 8 ;
+\ci: rv30 , Z98 = 7 ;
+
+# Restricciones por filas
+\cim : rf1 , <> (Z11,Z12,Z13,Z14,Z15,Z16,Z17,Z18,Z19) ; # Restriccion fila 1
+\cim : rf2 , <> (Z21,Z22,Z23,Z24,Z25,Z26,Z27,Z28,Z29) ; # Restriccion fila 2
+\cim : rf3 , <> (Z31,Z32,Z33,Z34,Z35,Z36,Z37,Z38,Z39) ; # Restriccion fila 3
+\cim : rf4 , <> (Z41,Z42,Z43,Z44,Z45,Z46,Z47,Z48,Z49) ; # Restriccion fila 4
+\cim : rf5 , <> (Z51,Z52,Z53,Z54,Z55,Z56,Z57,Z58,Z59) ; # Restriccion fila 5
+\cim : rf6 , <> (Z61,Z62,Z63,Z64,Z65,Z66,Z67,Z68,Z69) ; # Restriccion fila 6
+\cim : rf7 , <> (Z71,Z72,Z73,Z74,Z75,Z76,Z77,Z78,Z79) ; # Restriccion fila 7
+\cim : rf8 , <> (Z81,Z82,Z83,Z84,Z85,Z86,Z87,Z88,Z89) ; # Restriccion fila 8
+\cim : rf9 , <> (Z91,Z92,Z93,Z94,Z95,Z96,Z97,Z98,Z99) ; # Restriccion fila 9
+
+# Restricciones por columnas
+\cim : rc1 , <> (Z11,Z21,Z31,Z41,Z51,Z61,Z71,Z81,Z91) ; # Restriccion col 1
+\cim : rc2 , <> (Z12,Z22,Z32,Z42,Z52,Z62,Z72,Z82,Z92) ; # Restriccion col 2
+\cim : rc3 , <> (Z13,Z23,Z33,Z43,Z53,Z63,Z73,Z83,Z93) ; # Restriccion col 3
+\cim : rc4 , <> (Z14,Z24,Z34,Z44,Z54,Z64,Z74,Z84,Z94) ; # Restriccion col 4
+\cim : rc5 , <> (Z15,Z25,Z35,Z45,Z55,Z65,Z75,Z85,Z95) ; # Restriccion col 5
+\cim : rc6 , <> (Z16,Z26,Z36,Z46,Z56,Z66,Z76,Z86,Z96) ; # Restriccion col 6
+\cim : rc7 , <> (Z17,Z27,Z37,Z47,Z57,Z67,Z77,Z87,Z97) ; # Restriccion col 7
+\cim : rc8 , <> (Z18,Z28,Z38,Z48,Z58,Z68,Z78,Z88,Z98) ; # Restriccion col 8
+\cim : rc9 , <> (Z19,Z29,Z39,Z49,Z59,Z69,Z79,Z89,Z99) ; # Restriccion col 9
+
+
+# Restricciones por bloques
+# Nota: Numeracion de bloques =
+#								1 2 3
+#								4 5 6
+#								7 8 9
+\cim : rb1 , <> (Z11,Z12,Z13,Z21,Z22,Z23,Z31,Z32,Z33) ; # Restriccion bloque 1
+\cim : rb2 , <> (Z14,Z15,Z16,Z24,Z25,Z26,Z34,Z35,Z36) ; # Restriccion bloque 2
+\cim : rb3 , <> (Z17,Z18,Z19,Z27,Z28,Z29,Z37,Z38,Z39) ; # Restriccion bloque 3
+\cim : rb4 , <> (Z41,Z42,Z43,Z51,Z52,Z53,Z61,Z62,Z63) ; # Restriccion bloque 4
+\cim : rb5 , <> (Z44,Z45,Z46,Z54,Z55,Z56,Z64,Z65,Z66) ; # Restriccion bloque 5
+\cim : rb6 , <> (Z47,Z48,Z49,Z57,Z58,Z59,Z67,Z68,Z69) ; # Restriccion bloque 6
+\cim : rb7 , <> (Z71,Z72,Z73,Z81,Z82,Z83,Z91,Z92,Z93) ; # Restriccion bloque 7
+\cim : rb8 , <> (Z74,Z75,Z76,Z84,Z85,Z86,Z94,Z95,Z96) ; # Restriccion bloque 8
+\cim : rb9 , <> (Z77,Z78,Z79,Z87,Z88,Z89,Z97,Z98,Z99) ; # Restriccion bloque 9
+
+
+

@@ -1,0 +1,46 @@
+SemEval-2017 Task 7: Detection and Interpretation of English Puns
+==================================================================
+
+This archive contains trial and test data for the SemEval-2017 shared
+task on the detection and interpretation of English puns.
+
+In the "trial" directory, there are six XML files that cover each of
+the three subtasks (pun detection, pun location, and pun
+interpretation) and pun types (heterographic and homographic) as
+described on the task web page.  In combination with the document type
+definition (DTD) in the file puns.dtd, these XML files should be
+self-explanatory.
+
+Associated with each XML file is a delimited text file that
+illustrates the answer format expected by the scoring software.  These
+formats are as follows:
+
+For subtask 1, each line consists of two fields separated by
+horizontal whitespace (a single tab or space character).  The first
+field is the ID of a text from the XML file.  The second field is "1"
+if the text contains a pun, or "0" if the text does not contain a pun.
+
+For subtask 2, each line consists of two fields separated by
+horizontal whitespace (a single tab or space character).  The first
+field is the ID of a text from the XML file.  The second field is the
+ID of the one word in that text which is a pun.
+
+For subtask 3, each line consists of three fields separated by
+horizontal whitespace (a single tab or space character).  The first
+field is the ID of a pun word.  The second field is a
+semicolon-delimited list of WordNet 3.1 sense keys that match one
+meaning of the pun.  The third field is a semicolon-delimited list of
+WordNet 3.1 sense keys that match the other meaning of the pun.
+
+The order of the two meanings is not significant, nor is the order of
+the sense keys within each meaning.  Please visit the task web page at
+<http://alt.qcri.org/semeval2017/task7/> for further details on the
+scoring metrics.
+
+The "test" directory contains the test data (six XML files that cover
+each of the three subtasks and pun types, and associated delimited
+text files providing the answer key).
+
+Tristan Miller
+miller@ukp.informatik.tu-darmstadt.de
+February 15, 2017

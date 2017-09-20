@@ -1,0 +1,2 @@
+%WER 1.18 [ 5 / 425, 0 ins, 3 del, 2 sub ] exp/mono/decode/wer_15
+%WER 2.12 [ 9 / 425, 1 ins, 1 del, 7 sub ] exp/tri1/decode/wer_13

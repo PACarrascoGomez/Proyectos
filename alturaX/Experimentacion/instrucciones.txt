@@ -1,0 +1,8 @@
+---------------------------------------------
+INSTRUCCIONES DE EJECUCION DE EXPERIMENTACION
+---------------------------------------------
+
+0. Cambiar la salida del sistema por la linea 545
+1. -> obtener_alturas.sh => alturas_corpus.txt
+2. -> generacion_normal.sh (o generacion_random.sh) => generacion_datos.txt
+3. -> calcular_error_relativo.sh (o calcular_error_absoluto.sh) => error_relativo_obtenido.txt (o error_absoluto_obtenido.txt)
