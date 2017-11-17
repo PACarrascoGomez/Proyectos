@@ -1,0 +1,11 @@
+Autor: Pascual Andres Carrasco Gomez
+Descripcion: Algoritmo k vecinos mas cercanos
+Corpus: Flores: Virginica, Setosa, Versicolor (150 muestas etiquetadas)
+Entorno: JAVA
+
+---------------------------------------------------------------------------
+IDE: NetBeans
+---------------------------------------------------------------------------
+1) Abrir el proyecto en Netbeans
+2 (Opcional)) Cambiar el parametro k en la clase Main: Por defecto k = 5
+3) Ejecutar el proyecto
